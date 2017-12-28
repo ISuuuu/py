@@ -4,23 +4,23 @@ zjl ='迭代'
 
 d={'a':'1','b':'2','c':'3'}
 for i in d:
-    print i
+    print (i)
 for i in d.values():
-    print i
+    print (i)
 for k,v in d.items():  #获取d中values值
-    print k+":"+v  
+    print (k+":"+v)  
 
 for ch in 'zhangsan':
-    print ch
+    print (ch)
 
 n='zhangsan'
-print n[::2]  
+print (n[::2])  
 
 #通过collections模块的Iterable类型判断一个对象是否是可迭代对象
 
 from collections import Iterable
 
-print  isinstance('abc',Iterable)  #返回 True or False
+print  (isinstance('abc',Iterable))  #返回 True or False
 
 #如果对list实现下标循环，
 for i,b in enumerate(['A','B','C']):
