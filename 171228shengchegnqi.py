@@ -80,10 +80,9 @@ def triangles(num):
 
     for x in num:
         for y in x:
-            
+            pass           
             
     
-    pass
 
 #print(triangles())
 
