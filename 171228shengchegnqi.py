@@ -5,6 +5,8 @@
 
 L=[x*x for x in range(10)]
 print (L)
+# Laa=[x*x for x in range(11)]
+# print (sum(Laa))
 
 g=(x*x for x in range(1,11)if x%2==0)
 
@@ -56,4 +58,40 @@ def odd():
 
 odd()
 #?????????
+
+#如果发现拿不到return的返回值， 可以用捕获StopIteration错误，返回值保存在StopIteration 的vale中
+
+g=fib_new(6)
+
+while True:
+    try:
+        x=next(g)
+        print ('g:',x)
+    except StopIteration as e:
+        print ('Generator return value:',e.value)
+        break
+
+#作业 输入杨辉三角 
+
+L=[1]
+L1=[1]
+jj=1
+def triangles(num):
+
+    for x in num:
+        for y in x:
+            
+            
+    
+    pass
+
+#print(triangles())
+
+
+print ('-----------------')
+
+L=[]
+L=range(5)
+print (sum(L))
+
 
