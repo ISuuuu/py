@@ -10,7 +10,7 @@ for i in range(n):
     r.append(i)   
 
 
-#。。。。。。。
+#。。。。。。。test
 
 ###print r
 ##PYTHON 中提供了切片操作符 
