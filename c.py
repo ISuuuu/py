@@ -9,6 +9,9 @@ n=10
 for i in range(n):
     r.append(i)   
 
+
+#。。。。。。。
+
 ###print r
 ##PYTHON 中提供了切片操作符 
 ##print r[0:len(r)]
